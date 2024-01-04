@@ -1,0 +1,38 @@
+{
+  "readmeUrl": "TBA",
+  "title": "Portfolio",
+  "name": "Tanim Islam",
+  "ascii": "NA",
+  "social": {
+    "github": "CodeTanim",
+    "linkedin": "tanim-i"
+  },
+  "email": "tanim.i343@gmail.com",
+  "ps1_hostname": "Portfolio",
+  "ps1_username": "CodeTanim",
+  "repo": "https://github.com/CodeTanim/Portfolio-Term",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+
+  
+  "colors": {
+    "light": {
+      "background": "#FAF8F5", 
+      "foreground": "#403e41", 
+      "yellow": "#f1c40f", 
+      "green": "#2ecc71", 
+      "gray": "#bdc3c7", 
+      "blue": "#3498db", 
+      "red": "#e74c3c" 
+    },
+    "dark": {
+      "background": "#1e1e2e", 
+      "foreground": "#c5c6c7", 
+      "yellow": "#f1c40f", 
+      "green": "#2ecc71",
+      "gray": "#999",
+      "blue": "#3498db", 
+      "red": "#e74c3c" 
+    }
+  }
+  
+}
