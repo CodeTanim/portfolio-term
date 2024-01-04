@@ -32,8 +32,12 @@ const summary = async (args: string[]): Promise<string> => {
 ▐▓                                 ▐▓        <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
    ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
-    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           
-
+    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓           -----------
+      ▓▓▓   ▐▓▓   ▓▓   ▓▓▓   ▓▓▀             Experience
+        ▀▓▓▄▄ ▀▓▓▄▓▓▄▓▓▓▄▄▓▓▀                Data Engineer at Developing for Good
+            ▀▓▓▓▓▓▓▓▓▓▓▓▀▀                   Software Engineering Intern at Capital One
+                                             Developer Intern at Evergreen Investments
+                                             Data Science Program Intern at CCNY
 
 `;
   }

@@ -15,10 +15,48 @@ export const help = async (args: string[]): Promise<string> => {
     }
   }
   return `\nWelcome! Here are all the available commands:
-\n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.\n
+  
+  The ones you probably care about the most
+  ------------------------------------------------------------------------------
+  about
+  linkedin
+  github
+  resume
+  projects
+  summary
+  email
+  help
+
+
+  Just for fun. Try it out :) 
+  -------------------------------------------------------------------------------
+  banner 
+  bing
+  youtube
+  reddit  
+  date 
+  duckduckgo
+  echo
+  quote: random quote generator!
+  emacs 
+  email  
+  google 
+  weather: Example usage -> weather newyork 
+   
+  
+  A bit more fun, for the linux enthusiasts
+  --------------------------------------------------------------------------------
+  cd
+  ls
+  nvim   
+  readme  
+  repo 
+  sudo  
+  vi 
+  vim 
+  whoami
+
+  [ctrl+l]/clear: clears the terminal.\n
 `;
 };
 
@@ -32,10 +70,26 @@ export const repo = async (args: string[]): Promise<string> => {
 export const about = async (args: string[]): Promise<string> => {
   return `\nHi, I am ${config.name}. 
 Welcome to my website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -75,7 +129,7 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
 
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
+  return `Searching bing for ${args.join(' ')}`;
 };
 
 export const reddit = async (args: string[]): Promise<string> => {
@@ -129,6 +183,11 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+export const youtube = async (args?: string[]): Promise<string> => {
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
+  return `Permission denied: with little power comes... no responsibility? `;
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
@@ -152,11 +211,17 @@ export const banner = (args?: string[]): string => {
   ██╔═══╝ ██║   ██║██╔══██╗   ██║   ██╔══╝  ██║   ██║██║     ██║██║   ██║╚═╝
   ██║     ╚██████╔╝██║  ██║   ██║   ██║     ╚██████╔╝███████╗██║╚██████╔╝██╗
   ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝ ╚═╝
-
-                                                                            
+                                                                           
   My name is Tanim Islam 
-                                                                                                                                                                                                                                                                                                                              
-  Type and enter 'help' to see the list of available commands to navigate this terminal themed website.
+                                                        
+  Type and enter 'about' to know "all" about me. 
+  Type and enter 'resume' to get a copy of my resume
+  Type and enter 'linkedin' so you can connect with me!
   Type and enter 'summary' to display a quick summary of me.
+
+  Type and enter 'help' to see the list of all available commands to navigate this terminal themed website.
+
+  Type, enter and EXPLORE :D
+
 `;
 };
