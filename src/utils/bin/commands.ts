@@ -17,7 +17,8 @@ export const help = async (args: string[]): Promise<string> => {
   return `\nWelcome! Here are all the available commands:
   
   The ones you probably care about the most
-  ------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------
+  experience
   about
   linkedin
   github
@@ -91,6 +92,33 @@ Welcome to my website!
 
 `;
 };
+
+export const experience =async (args: string []): Promise<string> => {
+
+  return `\nThe following is all of my relevant work experience:\n
+
+  - Data Engineer at Developing for Good (Oct 2023 - Present)
+                            
+                            
+  - Software Engineering Intern at Capital One (June 2023 - Present)
+                            
+                            
+  - Developer Intern at Evergreen Investments (June 2022 - Oct 2022)
+                            
+                            
+  - Data Science Program Intern at CCNY (Jan 2022 - May 2022)
+                            
+                            
+  - IT Intern at ChaShaMa (June 2021 - Aug 2021)
+
+  \n`
+  
+  
+  
+
+};
+  
+
 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
@@ -179,13 +207,12 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
 export const youtube = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
-  return `Permission denied: with little power comes... no responsibility? `;
+  window.open(`https://youtube.com/search?q=${args.join(' ')}`);
+  return `Searching youtube for... `;
 };
 
 // Banner
