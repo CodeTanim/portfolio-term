@@ -49,8 +49,7 @@ export const help = async (args: string[]): Promise<string> => {
   --------------------------------------------------------------------------------
   cd
   ls
-  nvim   
-  readme  
+  nvim     
   repo 
   sudo  
   vi 
