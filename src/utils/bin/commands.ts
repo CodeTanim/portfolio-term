@@ -72,23 +72,9 @@ export const about = async (args: string[]): Promise<string> => {
   return `\nHi, I am ${config.name}. 
 Welcome to my website!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+I am a Self-Motivated Computer Science student with experience in web-development, 
+Cloud Computing, Machine Learning, and teaching. Passionate about all things 
+related to science (especially computers!), and hardworking towards any task.\n
 
 `;
 };
