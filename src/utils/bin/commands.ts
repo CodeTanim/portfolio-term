@@ -233,7 +233,7 @@ export const banner = (args?: string[]): string => {
 
   Type and enter 'help' to see the list of all available commands to navigate this terminal themed website.
 
-  Type, enter and EXPLORE :D
+  If you would rather prefer a normal viewing of my portfolio, then click <a href="https://tanim-portfolio.vercel.app"  target = "_blank"><u>here</u> </a>
 
 `;
 };
